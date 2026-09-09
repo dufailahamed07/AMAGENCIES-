@@ -441,8 +441,10 @@ Company web page
         <div class="contact-info">
             <h3>Get in Touch with AM Agencies</h3>
             <p>Looking for bulk wholesale pricing or specific custom sizes for your home? Contact us today!</p>
-            <p><i class="fa-solid fa-location-dot"></i> AM Agencies Headquarters, Main Market Road</p>
-            <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+            <p><i class="fa-solid fa-location-dot"></i> AM Agencies Headquarters, kalanivasal Main Market Road
+            karaikudi-630001 
+            sivaganga,tamizhnadu</p>
+            <p><i class="fa-solid fa-phone"></i> +91 9360854587 </p>
             <p><i class="fa-solid fa-envelope"></i> contact@amagencies.com</p>
         </div>
 
