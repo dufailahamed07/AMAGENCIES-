@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Codebeautify.org Text to HTML Converter</title>
+	</head>
+	<body>
+		<p>
+			<!DOCTYPE html>
+			<html lang="en">
+				<head>
+					<meta charset="UTF-8">
+						<meta name="viewport" content="width=device-width, initial-scale=1.0">
+							<title>AM Agencies | Premium Cleaning Solutions & Home Decor</title>
+							<!-- Google Fonts & FontAwesome Icons -->
+							<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+								<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+									<style> 
+        /* ==================== GLOBAL STYLES ==================== */ 
+        * { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+            font-family: 'Poppins', sans-serif; 
+        } 
+ 
+        :root { 
+            --primary: #1A365D; 
+            --secondary: #2B6CB0; 
+            --accent: #ECC94B; 
+            --light-bg: #F7FAFC; 
+            --dark-text: #2D3748; 
+        } 
+ 
+        body { 
+            color: var(--dark-text); 
+            line-height: 1.6; 
+            background-color: #fff; 
+        } 
+ 
+        /* ==================== NAVBAR ==================== */ 
+        .navbar { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 1.2rem 8%; 
+            background: #ffffff; 
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); 
+            position: sticky; 
+            top: 0; 
+            z-index: 1000; 
+        } 
+ 
+        .logo { 
+            font-size: 1.8rem; 
+            font-weight: 700; 
+            color: var(--primary); 
+        } 
+ 
+        .logo span { 
+            color: var(--secondary); 
+        } 
+ 
+        .nav-links { 
+            display: flex; 
+            list-style: none; 
+            gap: 2rem; 
+        } 
+ 
+        .nav-links a { 
+            text-decoration: none; 
+            color: var(--dark-text); 
+            font-weight: 500; 
+            transition: color 0.3s; 
+        } 
+ 
+        .nav-links a:hover { 
+            color: var(--secondary); 
+        } 
+ 
+        .btn-contact { 
+            background: var(--primary); 
+            color: #fff; 
+            padding: 0.6rem 1.5rem; 
+            border-radius: 25px; 
+            text-decoration: none; 
+            font-weight: 500; 
+            transition: background 0.3s; 
+        } 
+ 
+        .btn-contact:hover { 
+            background: var(--secondary); 
+        } 
+ 
+        /* ==================== HERO SECTION ==================== */ 
+        .hero { 
+            background: linear-gradient(135deg, rgba(26, 54, 93, 0.9), rgba(43, 108, 176, 0.8)), url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1350&q=80') center/cover; 
+            height: 75vh; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            text-align: center; 
+            color: white; 
+            padding: 0 20px; 
+        } 
+ 
+        .hero-content h1 { 
+            font-size: 3rem; 
+            margin-bottom: 1rem; 
+        } 
+ 
+        .hero-content p { 
+            font-size: 1.2rem; 
+            margin-bottom: 2rem; 
+            max-width: 600px; 
+            margin-left: auto; 
+            margin-right: auto; 
+        } 
+ 
+        .hero-btn { 
+            background: var(--accent); 
+            color: var(--primary); 
+            padding: 0.8rem 2rem; 
+            text-decoration: none; 
+            font-weight: 700; 
+            border-radius: 5px; 
+            transition: 0.3s; 
+        } 
+ 
+        .hero-btn:hover { 
+            background: #d69e2e; 
+        } 
+ 
+        /* SECTION TITLE */ 
+        .section-title { 
+            text-align: center; 
+            font-size: 2.2rem; 
+            color: var(--primary); 
+            margin: 4rem 0 1rem 0; 
+        } 
+ 
+        .section-subtitle { 
+            text-align: center; 
+            color: #718096; 
+            margin-bottom: 3rem; 
+        } 
+ 
+        /* ==================== SECTION 1: UNIQUE 3-COLUMN CARDS (Cleaning Tools) ==================== */ 
+        .grid-section { 
+            padding: 0 8%; 
+        } 
+ 
+        .card-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+            gap: 2rem; 
+        } 
+ 
+        .card-style-1 { 
+            background: #ffffff; 
+            border-radius: 12px; 
+            padding: 2.5rem 1.5rem; 
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05); 
+            text-align: center; 
+            border-bottom: 4px solid var(--secondary); 
+            transition: transform 0.3s; 
+        } 
+ 
+        .card-style-1:hover { 
+            transform: translateY(-8px); 
+        } 
+ 
+        .card-style-1 i { 
+            font-size: 2.5rem; 
+            color: var(--secondary); 
+            margin-bottom: 1.5rem; 
+        } 
+ 
+        .card-style-1 h3 { 
+            margin-bottom: 1rem; 
+            color: var(--primary); 
+        } 
+ 
+        /* ==================== SECTION 2: UNIQUE STAGGERED SPLIT DESIGN (Mats & Carpets) ==================== */ 
+        .split-section { 
+            background-color: var(--light-bg); 
+            padding: 4rem 8%; 
+            margin-top: 4rem; 
+        } 
+ 
+        .split-container { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 2rem; 
+            align-items: center; 
+            margin-bottom: 3rem; 
+        } 
+ 
+        .split-container:nth-child(even) { 
+            flex-direction: row-reverse; 
+        } 
+ 
+        .split-image { 
+            flex: 1; 
+            min-width: 300px; 
+            background: #e2e8f0; 
+            height: 300px; 
+            border-radius: 15px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            font-size: 4rem; 
+            color: var(--secondary); 
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1); 
+        } 
+ 
+        .split-text { 
+            flex: 1; 
+            min-width: 300px; 
+            padding: 1rem; 
+        } 
+ 
+        .split-text h3 { 
+            font-size: 1.8rem; 
+            color: var(--primary); 
+            margin-bottom: 1rem; 
+        } 
+ 
+        .split-text ul { 
+            list-style: none; 
+            margin-top: 1rem; 
+        } 
+ 
+        .split-text ul li { 
+            margin-bottom: 0.5rem; 
+            display: flex; 
+            align-items: center; 
+            gap: 10px; 
+        } 
+ 
+        .split-text ul li i { 
+            color: #38A169; 
+        } 
+ 
+        /* ==================== SECTION 3: FULL WIDTH BANNER DESIGN (Window Screens) ==================== */ 
+        .banner-section { 
+            background: linear-gradient(to right, #1A365D, #2B6CB0); 
+            color: white; 
+            padding: 4rem 8%; 
+            display: flex; 
+            align-items: center; 
+            justify-content: space-between; 
+            flex-wrap: wrap; 
+            gap: 2rem; 
+            margin-top: 2rem; 
+        } 
+ 
+        .banner-content { 
+            max-width: 600px; 
+        } 
+ 
+        .banner-content h2 { 
+            font-size: 2.2rem; 
+            margin-bottom: 1rem; 
+        } 
+ 
+        .banner-badge { 
+            background: var(--accent); 
+            color: var(--primary); 
+            padding: 5px 15px; 
+            border-radius: 20px; 
+            font-weight: bold; 
+            display: inline-block; 
+            margin-bottom: 1rem; 
+        } 
+ 
+        /* ==================== CONTACT & FOOTER ==================== */ 
+        .contact-section { 
+            padding: 4rem 8%; 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+            gap: 3rem; 
+            background: #fff; 
+        } 
+ 
+        .contact-info h3 { 
+            font-size: 1.8rem; 
+            color: var(--primary); 
+            margin-bottom: 1.5rem; 
+        } 
+ 
+        .contact-info p { 
+            margin-bottom: 1rem; 
+            display: flex; 
+            align-items: center; 
+            gap: 15px; 
+        } 
+ 
+        .contact-form form { 
+            display: flex; 
+            flex-direction: column; 
+            gap: 1rem; 
+        } 
+ 
+        .contact-form input, .contact-form textarea { 
+            padding: 0.8rem; 
+            border: 1px solid #CBD5E0; 
+            border-radius: 5px; 
+            width: 100%; 
+        } 
+ 
+        .contact-form button { 
+            background: var(--primary); 
+            color: white; 
+            padding: 0.8rem; 
+            border: none; 
+            border-radius: 5px; 
+            font-weight: bold; 
+            cursor: pointer; 
+            transition: background 0.3s; 
+        } 
+ 
+        .contact-form button:hover { 
+            background: var(--secondary); 
+        } 
+ 
+        footer { 
+            background: var(--primary); 
+            color: white; 
+            text-align: center; 
+            padding: 1.5rem; 
+            border-top: 1px solid rgba(255, 255, 255, 0.1); 
+        } 
+ 
+        /* Responsive Breakpoints */ 
+        @media (max-width: 768px) { 
+            .hero-content h1 { font-size: 2rem; } 
+            .nav-links { display: none; } 
+        } 
+    </style>
+								</head>
+								<body>
+									<!-- NAVBAR -->
+									<nav class="navbar">
+										<div class="logo">AM 
+											<span>Agencies</span>
+										</div>
+										<ul class="nav-links">
+											<li>
+												<a href="#home">Home</a>
+											</li>
+											<li>
+												<a href="#cleaning">Cleaning Tools</a>
+											</li>
+											<li>
+												<a href="#mats">Mats & Carpets</a>
+											</li>
+											<li>
+												<a href="#screens">Window Screens</a>
+											</li>
+										</ul>
+										<a href="#contact" class="btn-contact">Get a Quote</a>
+									</nav>
+									<!-- HERO SECTION -->
+									<section class="hero" id="home">
+										<div class="hero-content">
+											<h1>Quality Cleaning & Home Supplies</h1>
+											<p>Your one-stop wholesale & retail distributor for premium brooms, mops, modern floor mats, and protective window screens.</p>
+											<a href="#cleaning" class="hero-btn">Explore Products</a>
+										</div>
+									</section>
+									<!-- SECTION 1: CLEANING ESSENTIALS (3-Column Card Layout Design) -->
+									<h2 class="section-title" id="cleaning">Cleaning Essentials</h2>
+									<p class="section-subtitle">Durable, high-performance cleaning accessories for modern households and commercial spaces.</p>
+									<section class="grid-section">
+										<div class="card-grid">
+											<!-- Unique Design Column 1 -->
+											<div class="card-style-1">
+												<i class="fa-solid fa-broom"></i>
+												<h3>Brooms & Ceiling Brooms</h3>
+												<p>Features our specialized 
+													<strong>Sunflower Ceiling Brooms</strong> designed to reach high corners smoothly, alongside heavy-duty floor brooms.
+												</p>
+											</div>
+											<!-- Unique Design Column 2 -->
+											<div class="card-style-1">
+												<i class="fa-solid fa-spray-can-sparkles"></i>
+												<h3>Mops & Absorbents</h3>
+												<p>High-absorbent cotton and microfiber spin mops designed to clear spills and clean all flooring types effortlessly without leaving streaks.</p>
+											</div>
+											<!-- Unique Design Column 3 -->
+											<div class="card-style-1">
+												<i class="fa-solid fa-soap"></i>
+												<h3>Bathroom Brushes</h3>
+												<p>Ergonomic, tough-bristle bathroom brushes engineered to scrub tile floors, grout lines, and difficult corners efficiently.</p>
+											</div>
+										</div>
+									</section>
+									<!-- SECTION 2: MATS, CARPETS & FLOORING (Staggered Split Layout Design) -->
+									<section class="split-section" id="mats">
+										<h2 class="section-title">Floor Covers & Decorative Mats</h2>
+										<p class="section-subtitle">Enhance the aesthetics and comfort of your indoor and outdoor areas.</p>
+										<!-- Staggered Layout Block 1 -->
+										<div class="split-container">
+											<div class="split-image">
+												<i class="fa-solid fa-rug"></i>
+											</div>
+											<div class="split-text">
+												<h3>Floor Carpets & Entrance Mats</h3>
+												<p>We supply a wide range of durable floor carpets and entryway mats that absorb dust, trap dirt, and keep your indoor flooring clean.</p>
+												<ul>
+													<li>
+														<i class="fa-solid fa-check-circle"></i> High dirt-absorption efficiency
+													</li>
+													<li>
+														<i class="fa-solid fa-check-circle"></i> Anti-slip backing for safely staying in place
+													</li>
+													<li>
+														<i class="fa-solid fa-check-circle"></i> Elegant designs suitable for offices and residences
+													</li>
+												</ul>
+											</div>
+										</div>
+										<!-- Staggered Layout Block 2 -->
+										<div class="split-container">
+											<div class="split-image">
+												<i class="fa-solid fa-leaf"></i>
+											</div>
+											<div class="split-text">
+												<h3>Artificial Grass & Cushion Mats</h3>
+												<p>Transform balconies, gardens, or interior rooms with low-maintenance synthetic grass and soft, comfortable cushion mats.</p>
+												<ul>
+													<li>
+														<i class="fa-solid fa-check-circle"></i> All-weather durable artificial grass mats
+													</li>
+													<li>
+														<i class="fa-solid fa-check-circle"></i> Soft-cushion mats ideal for high-foot-traffic areas
+													</li>
+													<li>
+														<i class="fa-solid fa-check-circle"></i> Simple to wash and quick-drying
+													</li>
+												</ul>
+											</div>
+										</div>
+									</section>
+									<!-- SECTION 3: WINDOW SCREENS (Full-Width Highlight Banner Layout Design) -->
+									<section class="banner-section" id="screens">
+										<div class="banner-content">
+											<span class="banner-badge">Home Comfort Protection</span>
+											<h2>Premium Window Mosquito Screens</h2>
+											<p>Keep insects out while allowing fresh air to flow freely. AM Agencies offers durable, high-visibility, and custom-fit window screen meshes suitable for all window frames.</p>
+										</div>
+										<div>
+											<a href="#contact" class="hero-btn" style="background: #fff; color: var(--primary);">Inquire Window Screens</a>
+										</div>
+									</section>
+									<!-- SECTION 4: CONTACT & INQUIRY FORM -->
+									<section class="contact-section" id="contact">
+										<div class="contact-info">
+											<h3>Get in Touch with AM Agencies</h3>
+											<p>Looking for bulk wholesale pricing or specific custom sizes for your home? Contact us today!</p>
+											<p>
+												<i class="fa-solid fa-location-dot"></i> AM Agencies Headquarters, Main Market Road
+											</p>
+											<p>
+												<i class="fa-solid fa-phone"></i> +91 98765 43210
+											</p>
+											<p>
+												<i class="fa-solid fa-envelope"></i> contact@amagencies.com
+											</p>
+										</div>
+										<div class="contact-form">
+											<form action="#" method="POST">
+												<input type="text" placeholder="Your Full Name" required>
+													<input type="email" placeholder="Your Email Address" required>
+														<input type="tel" placeholder="Phone Number" required>
+															<textarea rows="4" placeholder="Tell us which products you need (e.g. Mops, Sunflower Brooms, Grass Mats, Window Screens...)" required></textarea>
+															<button type="submit">Submit Request</button>
+														</form>
+													</div>
+												</section>
+												<!-- FOOTER -->
+												<footer>
+													<p>&copy; 2026 AM Agencies. All Rights Reserved. Designed for Quality Household Products.</p>
+												</footer>
+											</body>
+										</html>
+									</p>
+								</body>
+							</html>
